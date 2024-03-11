@@ -1,0 +1,24 @@
+La simulación de Matrix que nos piden debe ser una matriz de 5x5 (por defecto, aunque debe ser parametrizable), que ellos observarán. En el tablero habrá, inicialmente, un
+Neo, un Smith y el resto serán personajes genéricos, que se irán sacando del vector generado anteriormente.  
+
+Una vez rellenada la matriz inicial, comienza la simulación durante 20 segundos. El
+ecosistema se basa en lo siguiente:
+	- Cada segundo se evalúa el porcentaje de morir de cada personaje de la matriz,
+	si es superior a 70% el personaje muere y es sustituido por otro; en caso
+	contrario se incrementa dicha probabilidad en un 10%.
+
+	- Cada dos segundos el agente Smith entra en acción. Genera aleatoriamente una
+	capacidad de infectar, que irá entre 1 y su capacidad máxima de infectar. Según
+	ese número, elimina a aquellos personajes que están en el camino más corto
+	hacia Neo. Smith tiene el problema que sólo puede moverse como un alfil en un
+	tablero de ajedrez
+
+	-Neo actúa cada 5 segundos. Decide al 50% si se cree que es el elegido o no (está
+	algo indeciso el hombre), si se lo cree, comprueba las casillas adyacentes a él y
+	si alguna está vacía (sin ningún personaje o Smith) introduce un nuevo personaje,
+	en caso contrario no hace nada. Tras actuar (o no) siempre lo que hace es
+	cambiar de posición( que no tiene por qué ser adyacente, será una aleatoria del
+	tablero): si en la nueva posición hay un agente Smith o un personaje genérico,
+	intercambia su posición.
+
+	-La simulación termina, bien cuando pasan los 20 segundos, bien cuando matrix queda únicamente con Smith y Neo.

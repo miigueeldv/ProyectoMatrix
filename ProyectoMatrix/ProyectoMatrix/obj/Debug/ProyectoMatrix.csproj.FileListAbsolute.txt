@@ -1,0 +1,7 @@
+C:\Users\b15-04m\Desktop\DAM\2_DAM\DESARROLLO-INTERFACES\Tema1\ProyectoMatrix\ProyectoMatrix\bin\Debug\ProyectoMatrix.exe.config
+C:\Users\b15-04m\Desktop\DAM\2_DAM\DESARROLLO-INTERFACES\Tema1\ProyectoMatrix\ProyectoMatrix\bin\Debug\ProyectoMatrix.exe
+C:\Users\b15-04m\Desktop\DAM\2_DAM\DESARROLLO-INTERFACES\Tema1\ProyectoMatrix\ProyectoMatrix\bin\Debug\ProyectoMatrix.pdb
+C:\Users\b15-04m\Desktop\DAM\2_DAM\DESARROLLO-INTERFACES\Tema1\ProyectoMatrix\ProyectoMatrix\obj\Debug\ProyectoMatrix.csproj.AssemblyReference.cache
+C:\Users\b15-04m\Desktop\DAM\2_DAM\DESARROLLO-INTERFACES\Tema1\ProyectoMatrix\ProyectoMatrix\obj\Debug\ProyectoMatrix.csproj.CoreCompileInputs.cache
+C:\Users\b15-04m\Desktop\DAM\2_DAM\DESARROLLO-INTERFACES\Tema1\ProyectoMatrix\ProyectoMatrix\obj\Debug\ProyectoMatrix.exe
+C:\Users\b15-04m\Desktop\DAM\2_DAM\DESARROLLO-INTERFACES\Tema1\ProyectoMatrix\ProyectoMatrix\obj\Debug\ProyectoMatrix.pdb
